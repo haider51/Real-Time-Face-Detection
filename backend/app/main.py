@@ -24,6 +24,4 @@ app.include_router(roi.router)
 
 @app.get("/")
 def root():
-    return {"status": "Backend is running and database is connected!"}git add .
-git commit -m "feat: create websocket video streaming and REST API for ROI data with Postgres"
-git push
+    return {"status": "Backend is running and database is connected!"}

@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, DateTime
 from sqlalchemy.sql import func
 from .database import Base
 
-class ROIData(Base):rm -rf frontend
+class ROIData(Base):
     __tablename__ = "roi_data"
 
     id = Column(Integer, primary_key=True, index=True)
